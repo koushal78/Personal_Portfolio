@@ -1,0 +1,132 @@
+
+/*  breakpoints 479 and 767 */
+
+@media screen and (max-width:991px){
+
+.nav-item ul{
+    flex-direction: column;
+
+}
+.nav-item ul{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color:  #00021b;
+    width: 100%;
+    align-items: center;
+    padding-block: 20px;
+    transition: 0.5s ease-in-out;
+}
+.active{
+   transform: translateX(100%);
+}
+.hamme-burger{
+    display: block;
+    cursor: pointer;
+
+}
+.main-about p{
+ font-size: 15px;
+
+}
+.main-about h1{
+    font-size: 30px;
+}
+.main-about h1::after{
+    margin-left: 12%;
+}
+.main-image img{
+transform: translateX(-100px);
+
+}
+input{
+    width: 220px;
+    
+}
+.input{
+    width: 270px;
+    white-space: nowrap;
+}
+.input label{
+    font-size: 15px;
+    font-weight:100 ;
+    padding-top: 15px;
+}
+.input label i{
+    font-size: 15px;
+}
+textarea{
+    width: 300px;
+}
+
+.btn{
+    transform: translateX(60px);
+}
+
+
+}
+@media screen and (max-width:620px) {
+
+    .container{
+        width: 95%;
+    }
+    .nav-item{
+        padding: 10px 0;
+    }
+    .title{
+       font-size: 15px;
+    }
+    .main-about p {
+        transform: translateX(-20px);
+    }
+    .main-content{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .main-image img{
+        transform: translateX(70px);
+        margin: 0 0 20px 0;
+    }
+    .qualification{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .quali-info{
+        height: auto;
+        margin-block: 20px;
+    }
+    .quali-info:nth-child(3){
+        margin-left: 40px;
+    }
+    .typo::before{
+        height:35px;
+    }
+    .service-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     
+        
+    }
+    .heading,.skills-heading::after{
+       display: none;
+    }
+    .service p{
+        margin-bottom: 50px;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+    }
+    .form img{
+        height: 400px;
+        width: 350px;
+        margin-left: 30px;
+    }
+    form{
+       display: inline;
+       margin-left: 60px;
+    }
+}
